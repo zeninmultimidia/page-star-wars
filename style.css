@@ -34,12 +34,12 @@ body{
         justify-content: center;
         align-items: center;
 }
-.header-logo-box1{
+/* .header-logo-box1{
     
 }
 .header-logo-box2{
     
-}
+} */
 /* STAR WARS LOGO IMAGES */
 .header-logo1, .header-logo2{
     width: 25vw;
@@ -57,8 +57,8 @@ body{
 }
 /* FIGURE FIRST IMPRESSION */
 .header-figure{
-    width: 100vw;
-    height: 100vh;
+    width: 50vw;
+    height: 50vh;
     position: relative;
 }
 .header-group{
