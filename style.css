@@ -34,15 +34,16 @@ body{
         justify-content: center;
         align-items: center;
 }
-/* .header-logo-box1{
-    
+ .header-logo-box1{
+    padding: 7rem 0 0 10rem;
 }
 .header-logo-box2{
-    
-} */
+    padding: 15rem 0 0 3rem;
+    flex-direction: column;
+}
 /* STAR WARS LOGO IMAGES */
 .header-logo1, .header-logo2{
-    width: 25vw;
+    width: 24vw;
     height: 15vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -51,17 +52,35 @@ body{
 }
 .header-logo1{
     background-image: url(img-desktop/star@2x.png);
+        align-items: center;
 }
 .header-logo2{
     background-image: url(img-desktop/wars@2x.png);
 }
-/* FIGURE FIRST IMPRESSION */
+/* FIGURE KYLO REN (FIRST IMPRESSION) */
 .header-figure{
-    width: 50vw;
-    height: 50vh;
+    width: 115vw;
+    height: 115vh;
     position: relative;
+    right: 7.2rem;
+    bottom: 0.5rem;
+    z-index: 2;
 }
 .header-group{
-    width: 10vw;
-    height: 20vh;
+    width: 8vw;
+    height: 18vh;
+        align-self: center;
+    position: relative;
+    top: 3rem;
+    left: 5rem;
+}
+/* UNIVERSAL MAIN FLEX-BOX */
+.main-container, {
+    display: ;
+}
+/* MAIN CONTAINER */
+.main-container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(img-desktop/sta\ uo\ robot@2x.png);
 }
