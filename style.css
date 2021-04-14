@@ -10,6 +10,7 @@ body{
     width: 100vw;
     height: 600vh;
     background-color: #FFF;
+    position: absolute;
 }
 /* UNIVERSAL HEADER FLEX-BOX */
 .header-container, .header-logo-box1, .header-logo-box2, .header-logo1, .header-logo2, .header-figure, .header-group{
@@ -25,7 +26,7 @@ body{
     background-size: 100%;
         justify-content: center;
         align-items: center;
-    position: absolute;
+    position: relative;
 }
 /* BOX 1,2 & BOX-FATHER FOR STAR WARS LOGO IMAGES */
 .header-logo-box1, .header-logo-box2{
@@ -39,7 +40,7 @@ body{
 }
 .header-logo-box2{
     padding: 15rem 0 0 3rem;
-    flex-direction: column;
+        flex-direction: column;
 }
 /* STAR WARS LOGO IMAGES */
 .header-logo1, .header-logo2{
@@ -64,7 +65,7 @@ body{
     position: relative;
     right: 7.2rem;
     bottom: 0.5rem;
-    z-index: 2;
+    z-index: 1;
 }
 .header-group{
     width: 8vw;
@@ -74,13 +75,81 @@ body{
     top: 3rem;
     left: 5rem;
 }
-/* UNIVERSAL MAIN FLEX-BOX */
-.main-container, {
-    display: ;
+/* UNIVERSAL MAIN SECTION1 FLEX-BOX */
+.main-container, .main-section1, .main-section1-img-background, .main-box1, .main-box1-comece, .main-box1-sobre, .main-section1-division, .main-box2 .main-box2-estrutura{
+        display: flex;
 }
 /* MAIN CONTAINER */
 .main-container{
     width: 100vw;
-    height: 100vh;
-    background-image: url(img-desktop/sta\ uo\ robot@2x.png);
+    height: 400vh;
+    position: relative;
 }
+/* MAIN SECTION 01 */
+.main-section1{
+    width: 100vw;
+    height: 200vh;
+    background-color: darkgreen;
+        flex-wrap: wrap;
+        flex-direction: column;
+    position: relative;
+    /* bottom: 2rem; */
+}
+.main-section1-img-background{
+    width: 40vw;
+    height: 157vh;
+    background-color: rgb(102, 99, 146);
+    background-image: url(img-desktop/sta\ uo\ robot@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    position: relative;
+}
+/* MAIN BOX DIVISION 1 */
+.main-box1{
+    width: 80vw;
+    height: 100vh;
+    background-color: darkcyan;
+        align-items: spac;
+
+    position: relative;
+    right: 20rem;
+}
+.main-box1-comece{
+    width: 20vw;
+    height: 70vh;
+    background-image: url(img-desktop/strom\ trupe\ red@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    position: relative;
+    z-index: 2;
+}
+.main-box1-sobre{
+    width: 10vw;
+    height: 10vh;
+    background-color: darkslategray;
+    position: relative;
+}
+/* MAIN BOX DIVISION 02 */
+.main-section1-division{
+    width: 10vw;
+    height: 10vh;
+    background-color: darkorange;
+    position: relative;
+}
+.main-box2-estrutura{
+    width: 10vw;
+    height: 10vh;
+    background-color: rgb(251, 255, 0);
+    position: relative;
+}
+/* MAIN SECTION 02 */
+/* .main-section2{
+} */
+/* MAIN SECTION 03 */
+/* .main-section3{
+} */
