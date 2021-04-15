@@ -19,7 +19,7 @@ body{
 /* HEADER CONTAINER & BACKGROUND IMAGE */
 .header-container{
     width: 100vw;
-    height: 100vh;
+    height: 93.6vh;
     background-image: url(img-desktop/star\ uó\ topo@2x.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -36,10 +36,10 @@ body{
         align-items: center;
 }
  .header-logo-box1{
-    padding: 7rem 0 0 10rem;
+    padding: 9rem 0 0 10rem;
 }
 .header-logo-box2{
-    padding: 15rem 0 0 3rem;
+    padding: 16rem 0 0 3rem;
         flex-direction: column;
 }
 /* STAR WARS LOGO IMAGES */
@@ -75,20 +75,21 @@ body{
     top: 3rem;
     left: 5rem;
 }
-/* UNIVERSAL MAIN SECTION1 FLEX-BOX */
-.main-container, .main-section1, .main-section1-img-background, .main-box1, .main-box1-comece, .main-box1-sobre, .main-section1-division, .main-box2 .main-box2-estrutura{
-        display: flex;
-}
-/* MAIN CONTAINER */
+/* MAIN -- CONTAINER */
 .main-container{
     width: 100vw;
     height: 400vh;
+        display: flex;
     position: relative;
 }
-/* MAIN SECTION 01 */
-.main-section1{
+/* UNIVERSAL MAIN SECTION1 -- BOX 01 -- FLEX-BOX */
+.main-section-first, .main-section1-img-background, .main-section1-container1, .main-section1-box1, .main-section1-box1-comece, .mmain-section1-box1-comece-test{
+    display: flex;
+}
+/* MAIN -- SECTION 01 CONTAINER */
+.main-section-first{
     width: 100vw;
-    height: 200vh;
+    height: 234vh;
     background-color: darkgreen;
         flex-wrap: wrap;
         flex-direction: column;
@@ -96,52 +97,130 @@ body{
     /* bottom: 2rem; */
 }
 .main-section1-img-background{
-    width: 40vw;
-    height: 157vh;
+    width: 45vw;
+    height: 200vh;
     background-color: rgb(102, 99, 146);
     background-image: url(img-desktop/sta\ uo\ robot@2x.png);
     background-repeat: no-repeat;
-    background-size: cover;
     background-size: 100%;
     position: relative;
 }
-/* MAIN BOX DIVISION 1 */
-.main-box1{
-    width: 80vw;
-    height: 100vh;
-    background-color: darkcyan;
-        align-items: spac;
-
+/* SECTION 01 -- BOX DIVISION 1 */
+.main-section1-container1{
+    width: 75vw;
+    height: 83vh;
+    background-color: aqua;
+        justify-content: space-between;
     position: relative;
-    right: 20rem;
+    right: 25rem;
+    bottom: 2.5rem;
 }
-.main-box1-comece{
+/* SECTION 01 -- BOX 01 -- COMECE A JOGAR */
+.main-section1-box1{
+    padding: 1.5rem;
     width: 20vw;
-    height: 70vh;
+    height: 64.3vh;
+    background-color: blueviolet;
     background-image: url(img-desktop/strom\ trupe\ red@2x.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 100%;
-        justify-content: center;
-        align-items: center;
         flex-direction: column;
     position: relative;
     z-index: 2;
 }
-.main-box1-sobre{
-    width: 10vw;
+.main-section1-box1-comece{
+    height: 60vh;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+}
+.main-section1-box1-comece h2{
+    width: 8rem;
+    color: #FFF;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.main-section1-box1-comece p{
+    color: rgba(255, 255, 255, 0.645);
+    text-align: start;
+    font-size: 0.88rem;
+    font-weight: 300;
+}
+.main-section1-box1-comece button{
+    width: 8rem;
+    height: 2rem;
+    color: #FFF;
+    background-color: rgba(255, 255, 255, 0);
+    text-transform: uppercase;
+    border-radius: 5%;
+    border: 0.1rem solid white;
+}
+.main-section1-box1-comece-test p{
+    color: rgba(255, 255, 255, 0.645);
+    text-align: end;
+    font-size: 0.4rem;
+    position: relative;
+    left: 0.6rem;
+    bottom: 1rem;
+}
+/* UNIVERSAL MAIN SECTION1 -- BOX 02 -- FLEX-BOX */
+.main-section1-box2-sobre, .main-section1-box2-linha, .main-section1-box2-img, .main-section1-division, .main-section1-box2{
+        display: flex;
+}
+/* SECTION 01 -- BOX 02 -- SOBRE O JOGO */
+.main-section1-box2-sobre{
+    margin-bottom: 10rem;
+    width: 47vw;
     height: 10vh;
+    text-align: end;
     background-color: darkslategray;
+        align-self: flex-end;
     position: relative;
+    top: 2.5rem;
 }
-/* MAIN BOX DIVISION 02 */
+.main-section1-box2-linha{
+    width: 5vw;
+    height: 0.5vh;
+    background-color: #707070;
+   
+}
+.main-section-box2-texts{
+    width: 5rem;
+    height: 10rem;
+    background-color: seagreen;
+}
+.main-section1-box2-sobre h3{
+    width: 20rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.main-section1-box2-sobre p{
+    width: 20rem;
+    font-size: 0.88rem;
+    font-weight: 400;
+}
+.main-section1-box2-img{
+    width: 30vw;
+    height: 25vh;
+}
+/* SECTION 01 -- BOX DIVISION 02 */
 .main-section1-division{
-    width: 10vw;
-    height: 10vh;
-    background-color: darkorange;
-    position: relative;
+    width: 1vw;
+    height: 2vh;
 }
-.main-box2-estrutura{
+/* SECTION 01 -- BOX 03 -- ESTRUTURA DE JOGO */
+.main-section1-container2, .main-section1-box3-estrutura{
+    display: flex;
+}
+.main-section1-container2{
+    width: 5rem;
+    background-color: yellowgreen;
+}
+.main-section1-box3-estrutura{
     width: 10vw;
     height: 10vh;
     background-color: rgb(251, 255, 0);
