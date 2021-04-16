@@ -7,8 +7,6 @@
     font-family: 'Open Sans', sans-serif;;
 }
 body{
-    width: 100vw;
-    height: 600vh;
     background-color: #FFF;
     position: absolute;
 }
@@ -18,15 +16,13 @@ body{
 }
 /* HEADER CONTAINER & BACKGROUND IMAGE */
 .header-container{
-    width: 100vw;
+    width: 98.79vw;
     height: 93.6vh;
     background-image: url(img-desktop/star\ uó\ topo@2x.png);
     background-repeat: no-repeat;
-    background-size: cover;
     background-size: 100%;
         justify-content: center;
         align-items: center;
-    position: relative;
 }
 /* BOX 1,2 & BOX-FATHER FOR STAR WARS LOGO IMAGES */
 .header-logo-box1, .header-logo-box2{
@@ -39,7 +35,7 @@ body{
     padding: 9rem 0 0 10rem;
 }
 .header-logo-box2{
-    padding: 16rem 0 0 3rem;
+    padding: 16rem 0 0 4rem;
         flex-direction: column;
 }
 /* STAR WARS LOGO IMAGES */
@@ -49,7 +45,6 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 100%;
-    position: relative;
 }
 .header-logo1{
     background-image: url(img-desktop/star@2x.png);
@@ -77,10 +72,9 @@ body{
 }
 /* MAIN -- CONTAINER */
 .main-container{
-    width: 100vw;
+    width: 98.79vw;
     height: 400vh;
         display: flex;
-    position: relative;
 }
 /* UNIVERSAL MAIN SECTION1 -- BOX 01 -- FLEX-BOX */
 .main-section-first, .main-section1-img-background, .main-section1-container1, .main-section1-box1, .main-section1-box1-comece, .mmain-section1-box1-comece-test{
@@ -89,27 +83,23 @@ body{
 /* MAIN -- SECTION 01 CONTAINER */
 .main-section-first{
     width: 100vw;
-    height: 234vh;
-    background-color: darkgreen;
+    height: 180vh;
+    background-color: rgba(0, 100, 0, 0.178);
         flex-wrap: wrap;
         flex-direction: column;
-    position: relative;
-    /* bottom: 2rem; */
 }
 .main-section1-img-background{
     width: 45vw;
-    height: 200vh;
+    height: 180vh;
     background-color: rgb(102, 99, 146);
     background-image: url(img-desktop/sta\ uo\ robot@2x.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    position: relative;
 }
 /* SECTION 01 -- BOX DIVISION 1 */
 .main-section1-container1{
     width: 75vw;
     height: 83vh;
-    background-color: aqua;
         justify-content: space-between;
     position: relative;
     right: 25rem;
@@ -167,50 +157,61 @@ body{
     bottom: 1rem;
 }
 /* UNIVERSAL MAIN SECTION1 -- BOX 02 -- FLEX-BOX */
-.main-section1-box2-sobre, .main-section1-box2-linha, .main-section1-box2-img, .main-section1-division, .main-section1-box2{
+.main-section1-box2-sobre, .main-section1-box2-linha, .main-section1-box2-texts, .main-section1-box2-img, .main-section1-division{
         display: flex;
 }
 /* SECTION 01 -- BOX 02 -- SOBRE O JOGO */
 .main-section1-box2-sobre{
-    margin-bottom: 10rem;
-    width: 47vw;
-    height: 10vh;
-    text-align: end;
-    background-color: darkslategray;
+    width: 50vw;
+    height: 26vh;
+    margin: 0 1rem 7.4rem 0;
         align-self: flex-end;
-    position: relative;
-    top: 2.5rem;
 }
 .main-section1-box2-linha{
-    width: 5vw;
-    height: 0.5vh;
-    background-color: #707070;
-   
+    width: 9.5vw;
+    height: 0.4vh;
+    margin-bottom: 0.5rem;
+    background-color: #000;
+    position: relative;
+    top: 0.5rem;
 }
-.main-section-box2-texts{
-    width: 5rem;
+.main-section1-box2-texts{
+    width: 27rem;
     height: 10rem;
-    background-color: seagreen;
+    text-align: end;
+        justify-content: flex-end;
+        align-items: flex-end;
+        flex-direction: column;
 }
-.main-section1-box2-sobre h3{
-    width: 20rem;
+.main-section1-box2-texts h3{
+    width: 20vw;
     text-transform: uppercase;
-    font-size: 1rem;
+    font-size: 1.4rem;
     font-weight: 700;
 }
-.main-section1-box2-sobre p{
-    width: 20rem;
-    font-size: 0.88rem;
+.main-section1-box2-texts p{
+    width: 24vw;
+    height: 19vh;
+    font-size: 0.8rem;
     font-weight: 400;
+    line-height: 1.2rem;
+    position: relative;
+    top: 0.5rem;
 }
 .main-section1-box2-img{
-    width: 30vw;
-    height: 25vh;
+    width: 20vw;
+    height: 26vh;
+    position: relative;
+    left: 1rem;
 }
 /* SECTION 01 -- BOX DIVISION 02 */
 .main-section1-division{
-    width: 1vw;
-    height: 2vh;
+    width: 75vw;
+    height: 0.6vh;
+    background-color: #707070;
+        position: relative;
+        right: 25rem;
+        bottom: 2.5rem;
 }
 /* SECTION 01 -- BOX 03 -- ESTRUTURA DE JOGO */
 .main-section1-container2, .main-section1-box3-estrutura{
