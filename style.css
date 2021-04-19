@@ -11,7 +11,7 @@ body{
     position: absolute;
 }
 /* UNIVERSAL HEADER FLEX-BOX */
-.header-container, .header-logo-box1, .header-logo-box2, .header-logo1, .header-logo2, .header-figure, .header-group{
+.header-container, .header-box-logo1, .header-box-logo2, .header-logo1, .header-logo2, .header-figure, .header-group{
         display: flex;
 }
 /* HEADER CONTAINER & BACKGROUND IMAGE */
@@ -22,59 +22,50 @@ body{
     background-repeat: no-repeat;
     background-size: 100%;
         justify-content: center;
-        align-items: center;
+    position: relative;
 }
 /* BOX 1,2 & BOX-FATHER FOR STAR WARS LOGO IMAGES */
-.header-logo-box1, .header-logo-box2{
+.header-box-logo1, .header-box-logo2{
     width: 50vw;
-    height: 100vh;
-        justify-content: center;
-        align-items: center;
+    height: 64vh;
+        align-items: flex-end;
+    position: relative;
 }
- .header-logo-box1{
-    padding: 9rem 0 0 10rem;
+.header-box-logo1{
+    left: 28rem;
 }
-.header-logo-box2{
-    padding: 16rem 0 0 4rem;
-        flex-direction: column;
+.header-box-logo2{
+    right: 20rem;
 }
 /* STAR WARS LOGO IMAGES */
 .header-logo1, .header-logo2{
     width: 24vw;
-    height: 15vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-size: 100%;
-}
-.header-logo1{
-    background-image: url(img-desktop/star@2x.png);
-        align-items: center;
-}
-.header-logo2{
-    background-image: url(img-desktop/wars@2x.png);
+    height: 13.5vh;
+    position: relative;
 }
 /* FIGURE KYLO REN (FIRST IMPRESSION) */
 .header-figure{
     width: 115vw;
     height: 115vh;
     position: relative;
-    right: 7.2rem;
-    bottom: 0.5rem;
+    right: 0.4rem;
+    bottom: 0.4rem;
     z-index: 1;
 }
 .header-group{
     width: 8vw;
     height: 18vh;
-        align-self: center;
+        align-self: flex-end;
     position: relative;
-    top: 3rem;
-    left: 5rem;
+    bottom: 1rem;
+    right: 2rem;
 }
 /* MAIN -- CONTAINER */
 .main-container{
     width: 98.79vw;
     height: 400vh;
         display: flex;
+    position: relative;
 }
 /* UNIVERSAL MAIN SECTION1 -- BOX 01 -- FLEX-BOX */
 .main-section-first, .main-section1-img-background, .main-section1-container1, .main-section1-box1, .main-section1-box1-comece, .mmain-section1-box1-comece-test{
