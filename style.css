@@ -25,7 +25,7 @@ body{
  .header-box-logo1, .header-box-logo2, .header-logo1, .header-logo2, .header-figure, .header-group{
         display: flex;
 }
-/* BOX 1,2 & BOX-FATHER FOR STAR WARS LOGO IMAGES */
+/* BOX 1,2 & BOX-MOTHER FOR STAR WARS LOGO IMAGES */
 .header-box-logo1, .header-box-logo2{
     width: 50vw;
     height: 64vh;
@@ -42,7 +42,6 @@ body{
 .header-logo1, .header-logo2{
     width: 24vw;
     height: 13.5vh;
-    position: relative;
 }
 /* FIGURE KYLO REN (FIRST IMPRESSION) */
 .header-figure{
@@ -65,39 +64,41 @@ body{
 .main-container{
     width: 98.79vw;
     height: 400vh;
+    background-color: rgba(0, 0, 139, 0.315);
         display: flex;
+		flex-direction: column;
     position: relative;
 }
-/* UNIVERSAL MAIN SECTION1 -- BOX 01 -- FLEX-BOX */
-.main-section-first, .main-section-first-background, .main-section-first-container1, .main-sectio-first1-box1, .main-section-first-box1-text, .mmain-section-first-box1-text-sub{
+/* MAIN SECTION 0NE -- BOX 01 -- UNIVERSAL FLEX-BOX */
+.main-section-one, .main-section-one-background, .main-section-one-container1, .main-section-one-box1, .main-section-one-box1-text, .mmain-section-one-box1-text-sub{
     display: flex;
 }
-/* MAIN -- SECTION 01 CONTAINER */
-.main-section-first{
-    width: 100vw;
+/* MAIN SECTION ONE -- CONTAINER */
+.main-section-one{
+    width: 98.79vw;
     height: 154vh;
         flex-wrap: wrap;
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
 }
-.main-section-first-background{
+.main-section-one-background{
     width: 40vw;
     height: 154vh;
     background-image: url(img-desktop/sta\ uo\ robot@2x.png);
     background-repeat: no-repeat;
     background-size: 100%;
 }
-/* SECTION 01 -- BOX DIVISION 1 */
-.main-section-first-container1{
+/* MAIN SECTION ONE -- BOX 01 DIVISION */
+.main-section-one-container1{
     width: 77vw;
     height: 70vh;
         justify-content: space-between;
     position: relative;
     right: 24.5rem;
 }
-/* SECTION 01 -- BOX 01 -- COMECE A JOGAR */
-.main-section-first-box1{
+/* MAIN SECTION ONE -- BOX 01 -- COMECE A JOGAR */
+.main-section-one-box1{
     width: 20vw;
     height: 64.3vh;
     padding: 1.5rem;
@@ -109,13 +110,13 @@ body{
     bottom: 2.5rem;
     z-index: 2;
 }
-.main-section-first-box1-text{
+.main-section-one-box1-text{
     height: 55vh;
         justify-content: space-around;
         align-items: center;
         flex-direction: column;
 }
-.main-section-first-box1-text h2{
+.main-section-one-box1-text h2{
     width: 8rem;
     color: #FFF;
     text-align: center;
@@ -123,13 +124,13 @@ body{
     font-size: 2rem;
     font-weight: 400;
 }
-.main-section-first-box1-text p{
+.main-section-one-box1-text p{
     color: rgba(255, 255, 255, 0.645);
     text-align: start;
     font-size: 0.88rem;
     font-weight: 300;
 }
-.main-section-first-box1-text button{
+.main-section-one-box1-text button{
     width: 8rem;
     height: 2rem;
     color: #FFF;
@@ -138,7 +139,7 @@ body{
     border-radius: 5%;
     border: 0.1rem solid white;
 }
-.main-section-first-box1-text-sub{
+.main-section-one-box1-text-sub{
     color: rgba(255, 255, 255, 0.645);
     text-align: end;
     font-size: 0.4rem;
@@ -146,18 +147,19 @@ body{
     left: 0.6rem;
     bottom: 1rem;
 }
-/* UNIVERSAL MAIN SECTION1 -- BOX 02 -- FLEX-BOX */
-.main-section-first-box2, .main-section-first-box2-line, .main-section-first-box2-text, .main-section1-box2-img, .main-section1-division{
+/* MAIN SECTION 01 -- BOX 02 -- UNIVERSAL FLEX-BOX */
+.main-section-one-box2, .main-section-one-box2-line, .main-section-one-box2-text, .main-section-one-box2-img, .main-section1-division{
         display: flex;
 }
-/* SECTION 01 -- BOX 02 -- SOBRE O JOGO */
-.main-section-first-box2{
+/* MAIN SECTION ONE -- BOX 02 -- SOBRE O JOGO */
+.main-section-one-box2{
     width: 50vw;
     height: 26vh;
     margin-top: 7.7rem;
         align-self: center;
+	position: relative;
 }
-.main-section-first-box2-line{
+.main-section-one-box2-line{
     width: 9.5vw;
     height: 0.4vh;
     margin-bottom: 0.5rem;
@@ -165,21 +167,22 @@ body{
     position: relative;
     top: 0.5rem;
 }
-.main-section-first-box2-text{
+.main-section-one-box2-text{
     width: 27rem;
     height: 10rem;
     text-align: end;
         justify-content: flex-end;
         align-items: flex-end;
         flex-direction: column;
+	position: relative;
 }
-.main-section-first-box2-text h3{
+.main-section-one-box2-text h3{
     width: 20vw;
     text-transform: uppercase;
     font-size: 1.4rem;
     font-weight: 700;
 }
-.main-section-first-box2-text p{
+.main-section-one-box2-text p{
     width: 24vw;
     height: 19vh;
     font-size: 0.9rem;
@@ -188,14 +191,14 @@ body{
     position: relative;
     top: 0.5rem;
 }
-.main-section-first-box2-img{
+.main-section-one-box2-img{
     width: 20vw;
     height: 26vh;
     margin-left: 1rem;
     position: relative;
 }
-/* SECTION 01 -- BOX DIVISION 02 */
-.main-section-first-division{
+/* MAIN SECTION ONE -- BOX 02 -- DIVISION GERAL */
+.main-section-one-division{
     width: 77vw;
     height: 0.6vh;
     background-color: #707070;
@@ -203,17 +206,17 @@ body{
         right: 24.5rem;
         bottom: 1rem;
 }
-/* SECTION 01 -- BOX 03 -- ESTRUTURA DE JOGO */
-.main-section-first-container2, .main-section-first-box3, .main-section-first-box3-nav, .main-section-first-box3-figure1, .main-section-first-box3-figure2{
+/* MAIN SECTION ONE -- BOX 03 -- ESTRUTURA DE JOGO */
+.main-section-one-container2, .main-section-one-box3, .main-section-one-box3-nav, .main-section-one-box3-figure1, .main-section-one-box3-figure2{
     display: flex;
 }
-.main-section-first-container2{
+.main-section-one-container2{
     width: 77vw;
     height: 80vh;
     position: relative;
     right: 22rem;
 }
-.main-section-first-box3{
+.main-section-one-box3{
     width: 30vw;
     height: 80vh;
         justify-content: center;
@@ -221,7 +224,7 @@ body{
     position: relative;
     right: 4rem;
 }
-.main-section-first-box3-nav{
+.main-section-one-box3-nav{
     text-transform: uppercase;
         flex-direction: column;
         justify-content: flex-start;
@@ -229,7 +232,7 @@ body{
     position: relative;
     z-index: 2;
 }
-.main-section-first-box3-nav h3{
+.main-section-one-box3-nav h3{
     width: 25vw;
     height: 20vh;
     text-align: right;
@@ -237,28 +240,60 @@ body{
     font-weight: 600;
     line-height: 3rem;
 }
-.main-section-first-box3-nav span{
+.main-section-one-box3-nav span{
     font-weight: 800;
 }
-.main-section-first-box3-nav li{
+.main-section-one-box3-nav li{
     margin-top: 1rem;
     list-style: none;
     font-size: 1.2rem;
     font-weight: 500;
 }
-.main-section-first-box3-figure1{
+.main-section-one-box3-figure1{
     width: 40vw;
     height: 90vh;
 }
-.main-section-first-box3-figure2{
+.main-section-one-box3-figure2{
     width: 40vw;
     height: 80vh;
     position: relative;
     top: 4rem;
 }
-/* MAIN SECTION 02 */
-/* .main-section2{
+/* MAIN SECTION TWO -- UNIVERSAL FLEX-BOX */
+.main-section-two, .main-section-two-grid, .main-section-two-nav, .main-section-two-img1, .main-section-two-img2{
+		display: flex;
+}
+/* MAIN SECTION TWO */
+.main-section-two{
+   	width: 98.79vw;
+    height: 200vh;
+    background-color: #2D2D2D;
+		flex-direction: column;
+		justify-content: center;
+}
+.main-section-two h2{
+	color: #FFF;
+	font-size: 2rem;
+	text-transform: uppercase;
+}
+/* .main-section-two-grid{
+
+}
+.main-section-two-nav{
+	flex-direction: column-reverse;
+}
+.main-section-two-nav img{
+	width: 5vw;
+	height: 5vh;
+}
+.main-section-two-img1{
+	width: 10vw;
+	height: 10vh;
+}
+.main-section-two-img2{
+	width: 10vw;
+	height: 10vh;
 } */
-/* MAIN SECTION 03 */
+/* MAIN SECTION THREE */
 /* .main-section3{
 } */
