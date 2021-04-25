@@ -63,7 +63,7 @@ body{
 /* MAIN -- CONTAINER */
 .main-container{
     width: 98.79vw;
-    height: 400vh;
+    height: 500vh;
     background-color: rgba(0, 0, 139, 0.315);
         display: flex;
 		flex-direction: column;
@@ -260,40 +260,95 @@ body{
     top: 4rem;
 }
 /* MAIN SECTION TWO -- UNIVERSAL FLEX-BOX */
-.main-section-two, .main-section-two-grid, .main-section-two-nav, .main-section-two-img1, .main-section-two-img2{
+.main-section-two, .main-section-two-grid, .main-section-two-span1, .main-section-two-span2, .main-section-two-img1, .main-section-two-img2, .main-section-two-text{
 		display: flex;
 }
 /* MAIN SECTION TWO */
 .main-section-two{
    	width: 98.79vw;
-    height: 200vh;
+    height: 260vh;
     background-color: #2D2D2D;
 		flex-direction: column;
-		justify-content: center;
+		align-items: center;
 }
 .main-section-two h2{
+	width: 66vw;
+    height: 8vh;
+    margin: 8rem 0 2rem 0;
 	color: #FFF;
-	font-size: 2rem;
+	font-size: 2.1rem;
+	font-weight: 800;
 	text-transform: uppercase;
 }
-/* .main-section-two-grid{
-
-}
-.main-section-two-nav{
-	flex-direction: column-reverse;
-}
-.main-section-two-nav img{
-	width: 5vw;
-	height: 5vh;
+/* MAIN SECTION TWO GRID WITH 5 IMAGES */
+.main-section-two-grid{
+	width: 80vw;
+	height: 55vh;
+    margin-bottom: 4rem;
 }
 .main-section-two-img1{
-	width: 10vw;
-	height: 10vh;
+	width: 40vw;
+	height: 55vh;
 }
+.main-section-two-span1 img, .main-section-two-span2 img{
+	width: 20vw;
+	height: 27.5vh;
+}
+/* MAIN SECTION IMAGE -- STORMTROOP HIERARQUIA */
 .main-section-two-img2{
-	width: 10vw;
-	height: 10vh;
-} */
+	width: 80vw;
+	height: 110vh;
+}
+.main-section-two p{
+    width: 40vw;
+    color: #FFF;
+    margin: 1rem 8rem 0 0;
+    text-align: right;
+    font-size: 0.8rem;
+    font-weight: 300;
+        align-self: flex-end;
+}
+.main-section-two-text{
+    padding-left: 5rem;
+        justify-content: center;
+}
+/* MAIN SECTION THREE -- UNIVERSAL FLEX-BOX  */
+.main-section-three, .main-section-three-figure, .main-section-three-divs{
+    display: flex;
+}
 /* MAIN SECTION THREE */
-/* .main-section3{
-} */
+.main-section-three{
+    width: 98.79vw;
+    height: 63vh;
+    background-color: cornflowerblue;
+        justify-content: flex-end;
+        align-items: center;
+}
+.main-section-three-figure{
+
+}
+.main-section-three-divs{
+    width: 70vw;
+    height: 50vh;
+    text-align: center;
+    background-color: rgba(100, 237, 100, 0.507);
+        justify-content: space-around;
+        align-items: center;
+}
+.main-section-three-divs div{
+    background-color: crimson;
+}
+.main-section-three-divs div h4{
+    background-color: darkmagenta;
+}
+.main-section-three-divs button{
+    transform-style: flat;
+    color: #FFF;
+    text-transform: uppercase;
+    background-color: #000;
+}
+.main-section-three-divs p{
+    width: 4vw;
+    background-color: forestgreen;
+    font-size: 1rem;
+}
