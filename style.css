@@ -280,6 +280,7 @@ body{
 	font-weight: 800;
 	text-transform: uppercase;
 }
+/* MAIN SECTION TWO GRID WITH 5 IMAGES */
 .main-section-two-grid{
 	width: 80vw;
 	height: 55vh;
@@ -311,6 +312,42 @@ body{
     padding-left: 5rem;
         justify-content: center;
 }
+/* MAIN SECTION THREE -- UNIVERSAL FLEX-BOX  */
+.main-section-three, .main-section-three-figure, .main-section-three-labels{
+    display: flex;
+}
 /* MAIN SECTION THREE */
-/* .main-section3{
-} */
+.main-section-three{
+    width: 98.79vw;
+    height: 63vh;
+    background-color: cornflowerblue;
+        justify-content: flex-end;
+        align-items: center;
+}
+.main-section-three-figure{
+
+}
+.main-section-three-labels{
+    width: 70vw;
+    height: 50vh;
+    text-align: center;
+    background-color: rgba(100, 237, 100, 0.507);
+        justify-content: space-around;
+        align-items: center;
+}
+.main-section-three-labels label{
+    background-color: crimson;
+}
+.main-section-three-labels label h4{
+    background-color: darkmagenta;
+}
+.main-section-three-labels input{
+    transform-style: flat;
+    color: #FFF;
+    background-color: #000;
+}
+.main-section-three-labels p{
+    width: 4vw;
+    background-color: forestgreen;
+    font-size: 1rem;
+}
