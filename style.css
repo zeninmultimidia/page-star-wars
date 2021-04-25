@@ -313,7 +313,7 @@ body{
         justify-content: center;
 }
 /* MAIN SECTION THREE -- UNIVERSAL FLEX-BOX  */
-.main-section-three, .main-section-three-figure, .main-section-three-labels{
+.main-section-three, .main-section-three-figure, .main-section-three-divs{
     display: flex;
 }
 /* MAIN SECTION THREE */
@@ -327,7 +327,7 @@ body{
 .main-section-three-figure{
 
 }
-.main-section-three-labels{
+.main-section-three-divs{
     width: 70vw;
     height: 50vh;
     text-align: center;
@@ -335,18 +335,19 @@ body{
         justify-content: space-around;
         align-items: center;
 }
-.main-section-three-labels label{
+.main-section-three-divs div{
     background-color: crimson;
 }
-.main-section-three-labels label h4{
+.main-section-three-divs div h4{
     background-color: darkmagenta;
 }
-.main-section-three-labels input{
+.main-section-three-divs button{
     transform-style: flat;
     color: #FFF;
+    text-transform: uppercase;
     background-color: #000;
 }
-.main-section-three-labels p{
+.main-section-three-divs p{
     width: 4vw;
     background-color: forestgreen;
     font-size: 1rem;
