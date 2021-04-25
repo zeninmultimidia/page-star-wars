@@ -63,7 +63,7 @@ body{
 /* MAIN -- CONTAINER */
 .main-container{
     width: 98.79vw;
-    height: 400vh;
+    height: 500vh;
     background-color: rgba(0, 0, 139, 0.315);
         display: flex;
 		flex-direction: column;
@@ -260,40 +260,57 @@ body{
     top: 4rem;
 }
 /* MAIN SECTION TWO -- UNIVERSAL FLEX-BOX */
-.main-section-two, .main-section-two-grid, .main-section-two-nav, .main-section-two-img1, .main-section-two-img2{
+.main-section-two, .main-section-two-grid, .main-section-two-span1, .main-section-two-span2, .main-section-two-img1, .main-section-two-img2, .main-section-two-text{
 		display: flex;
 }
 /* MAIN SECTION TWO */
 .main-section-two{
    	width: 98.79vw;
-    height: 200vh;
+    height: 260vh;
     background-color: #2D2D2D;
 		flex-direction: column;
-		justify-content: center;
+		align-items: center;
 }
 .main-section-two h2{
+	width: 66vw;
+    height: 8vh;
+    margin: 8rem 0 2rem 0;
 	color: #FFF;
-	font-size: 2rem;
+	font-size: 2.1rem;
+	font-weight: 800;
 	text-transform: uppercase;
 }
-/* .main-section-two-grid{
-
-}
-.main-section-two-nav{
-	flex-direction: column-reverse;
-}
-.main-section-two-nav img{
-	width: 5vw;
-	height: 5vh;
+.main-section-two-grid{
+	width: 80vw;
+	height: 55vh;
+    margin-bottom: 4rem;
 }
 .main-section-two-img1{
-	width: 10vw;
-	height: 10vh;
+	width: 40vw;
+	height: 55vh;
 }
+.main-section-two-span1 img, .main-section-two-span2 img{
+	width: 20vw;
+	height: 27.5vh;
+}
+/* MAIN SECTION IMAGE -- STORMTROOP HIERARQUIA */
 .main-section-two-img2{
-	width: 10vw;
-	height: 10vh;
-} */
+	width: 80vw;
+	height: 110vh;
+}
+.main-section-two p{
+    width: 40vw;
+    color: #FFF;
+    margin: 1rem 8rem 0 0;
+    text-align: right;
+    font-size: 0.8rem;
+    font-weight: 300;
+        align-self: flex-end;
+}
+.main-section-two-text{
+    padding-left: 5rem;
+        justify-content: center;
+}
 /* MAIN SECTION THREE */
 /* .main-section3{
 } */
