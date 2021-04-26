@@ -266,6 +266,10 @@ body{
     background-color: #D74430;
     transition: 2s;
 }
+.main-section-one-box3-nav li a{
+    color: #000;
+    text-decoration: none;
+}
 .main-section-one-box3-figure1{
     width: 40vw;
     height: 90vh;
@@ -363,7 +367,6 @@ body{
     width: 14vw;
     height: 35vh;
     margin: 0 2.5rem;
-    background-color: cadetblue;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
