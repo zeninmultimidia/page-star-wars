@@ -41,11 +41,9 @@ body{
 /* STAR WARS LOGO IMAGES */
 .header-logo1, .header-logo2{
     width: 24vw;
-    height: 13.5vh;
 }
 /* FIGURE KYLO REN (FIRST IMPRESSION) */
 .header-figure{
-    width: 115vw;
     height: 115vh;
     position: relative;
     right: 0.4rem;
@@ -54,7 +52,6 @@ body{
 }
 .header-group{
     width: 8vw;
-    height: 18vh;
         align-self: flex-end;
     position: relative;
     bottom: 1rem;
@@ -198,8 +195,7 @@ body{
     top: 0.5rem;
 }
 .main-section-one-box2-img{
-    width: 20vw;
-    height: 26vh;
+    width: 22vw;
     margin-left: 1rem;
     position: relative;
 }
@@ -228,7 +224,7 @@ body{
         justify-content: center;
         align-items: center;
     position: relative;
-    right: 14rem;
+    right: 16rem;
 }
 .main-section-one-box3-nav{
     width: 30vw;
@@ -270,18 +266,20 @@ body{
     color: #000;
     text-decoration: none;
 }
+.main-section-one-box3-nav li a:hover{
+    color: #fff;
+    transition: 1s;
+}
 .main-section-one-box3-figure1{
-    width: 40vw;
     height: 90vh;
 }
 .main-section-one-box3-figure2{
-    width: 20vw;
     height: 80vh;
     position: relative;
     top: 4rem;
 }
 /* MAIN SECTION TWO -- UNIVERSAL FLEX-BOX */
-.main-section-two, .main-section-two-grid, .main-section-two-span1, .main-section-two-span2, .main-section-two-img1, .main-section-two-img2, .main-section-two-text{
+.main-section-two, .main-section-two-box1-grid, .main-section-two-box1-grid-img1, .main-section-two-box1-grid-span1, .main-section-two-box1-grid-span2, .main-section-two-box2, .main-section-two-box2-img, .main-section-two-box2-text{
 		display: flex;
 }
 /* MAIN SECTION TWO */
@@ -297,48 +295,47 @@ body{
     height: 8vh;
     margin: 8rem 0 2rem 0;
 	color: #FFF;
-	font-size: 2.1rem;
+	font-size: 200%;
 	font-weight: 800;
 	text-transform: uppercase;
 }
 /* MAIN SECTION TWO GRID WITH 5 IMAGES */
-.main-section-two-grid{
-	width: 80vw;
-	height: 55vh;
+.main-section-two-box1-grid{
+	width: 83vw;
+	height: 58vh;
     margin-bottom: 4rem;
 }
-.main-section-two-img1{
+.main-section-two-box1-grid-img1{
 	width: 40vw;
-	height: 55vh;
 }
-.main-section-two-span1 img, .main-section-two-span2 img{
-	width: 20vw;
-	height: 27.5vh;
+.main-section-two-box1-grid-span1 img, .main-section-two-box1-grid-span2 img{
+	height: 29vh;
     background-image: url(img-desktop/Grupo\ novos\ graficos.svg);
     background-size: 0%;
 }
-.main-section-two-span1 img:hover, .main-section-two-span2 img:hover {
+.main-section-two-box1-grid-img1:hover, .main-section-two-box1-grid-span1 img:hover, .main-section-two-box1-grid-span2 img:hover{
     background-image: url(img-desktop/Grupo\ novos\ graficos.svg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    transition: 50ms;
+    background-size:100%;
+    background-position: center;
+    transition: 200ms;
 }
-/* MAIN SECTION IMAGE -- STORMTROOP HIERARQUIA */
-.main-section-two-img2{
-	width: 80vw;
+/* MAIN SECTION IMAGE -- BOX2 -- STORMTROOP HIERARQUIA */
+.main-section-two-box2{
+        flex-direction: column;
+}
+.main-section-two-box2-img{
 	height: 110vh;
 }
-.main-section-two p{
+.main-section-two-box2 p{
     width: 40vw;
     color: #FFF;
-    margin: 1rem 8rem 0 0;
+    margin-top: 1rem;
     text-align: right;
-    font-size: 0.8rem;
+    font-size: 76%;
     font-weight: 300;
         align-self: flex-end;
 }
-.main-section-two-text{
-    padding-left: 5rem;
+.main-section-two-box2-text{
         justify-content: center;
 }
 /* MAIN SECTION THREE -- UNIVERSAL FLEX-BOX  */
@@ -352,7 +349,6 @@ body{
         justify-content: flex-end;
 }
 .main-section-three-figure, .main-section-three-figure img{
-    width: 27vw;
     height: 90vh;
         align-self: flex-end;
 }
@@ -415,7 +411,7 @@ body{
 .footer-section-container{
     width: 98.79vw;
     height: 115vh;
-       align-items: flex-end;
+        align-items: flex-end;
 }
 /* FOOTER SECTION CONTAINER: GERAL FOOTER CONTENT */
 .footer-section{
@@ -446,15 +442,13 @@ body{
     font-weight: 300;
 }
 .footer-section-box1 span{
-     justify-content: space-between;
+        justify-content: space-between;
 }
 .footer-section-box1 span img{
     width: 12.5vw;
-    height: 8vh;
 }
 .footer-section-box1 img:hover{
     width: 13vw;
-    height: 8.5vh;
 }
 /* FOOTER SECTION DIVISION */
 .footer-section-division img{
@@ -470,7 +464,6 @@ body{
 }
 .footer-section-box2 img{
     width: 12.5vw;
-    height: 12.5vh;
     margin: 1rem 0;
 }
 .footer-section-box2 p{
@@ -482,16 +475,15 @@ body{
 /* FOOTER CONTAINER: IMG AND REF PARAGRAGH */
 .footer-section-box3{
     width: 37vw;
-    height: 102vh;
+    height: 101vh;
     margin-bottom: 3rem;
         flex-direction: column;
         align-items: flex-end;
     position: relative;
-    right: 8rem;
+    right: 9rem;
 }
 .footer-section-box3 img{
-    width: 37vw;
-    height: 102vh;
+    height: 101vh;
 }
 .footer-section-box3 p{
     width: 20vw;
