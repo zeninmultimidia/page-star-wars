@@ -138,6 +138,13 @@ body{
     border-radius: 5%;
     border: 0.1rem solid white;
 }
+.main-section-one-box1-text button:hover{
+    width: 8.5rem;
+    height: 2.1rem;
+    color: black;
+    background-color: #fff;
+    transition: 1s;
+}
 .main-section-one-box1-text-sub{
     color: rgba(255, 255, 255, 0.645);
     text-align: end;
@@ -216,14 +223,16 @@ body{
     right: 22rem;
 }
 .main-section-one-box3{
-    width: 30vw;
+    width: 50vw;
     height: 80vh;
         justify-content: center;
         align-items: center;
     position: relative;
-    right: 4rem;
+    right: 14rem;
 }
 .main-section-one-box3-nav{
+    width: 30vw;
+    height: 65vh;
     text-transform: uppercase;
         flex-direction: column;
         justify-content: flex-start;
@@ -243,17 +252,26 @@ body{
     font-weight: 800;
 }
 .main-section-one-box3-nav li{
+    width: 26vw;
+    height: 4vh;
     margin-top: 1rem;
     list-style: none;
+    text-align: end;
     font-size: 1.2rem;
     font-weight: 500;
+}
+.main-section-one-box3-nav li:hover{
+    width: 30vw;
+    height: 4.2vh;
+    background-color: #D74430;
+    transition: 2s;
 }
 .main-section-one-box3-figure1{
     width: 40vw;
     height: 90vh;
 }
 .main-section-one-box3-figure2{
-    width: 40vw;
+    width: 20vw;
     height: 80vh;
     position: relative;
     top: 4rem;
@@ -292,6 +310,14 @@ body{
 .main-section-two-span1 img, .main-section-two-span2 img{
 	width: 20vw;
 	height: 27.5vh;
+    background-image: url(img-desktop/Grupo\ novos\ graficos.svg);
+    background-size: 0%;
+}
+.main-section-two-span1 img:hover, .main-section-two-span2 img:hover {
+    background-image: url(img-desktop/Grupo\ novos\ graficos.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    transition: 50ms;
 }
 /* MAIN SECTION IMAGE -- STORMTROOP HIERARQUIA */
 .main-section-two-img2{
@@ -337,6 +363,7 @@ body{
     width: 14vw;
     height: 35vh;
     margin: 0 2.5rem;
+    background-color: cadetblue;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
@@ -345,14 +372,22 @@ body{
     font-size: 2rem;
     font-weight: 500;
 }
+.main-section-three-box-divs div:hover h4{
+    font-weight: 700;
+}
 .main-section-three-box-divs button{
     width: 14vw;
     height: 8vh;
     color: #FFF;
     background-color: #000;
+    border-style: none;
     text-transform: uppercase;
     font-size: 1.2rem;
     font-weight: 300;
+}
+.main-section-three-box-divs div:hover button{
+    background-color: #D74430;
+    transition: 500ms;
 }
 .main-section-three-box-divs p{
     width: 9.3vw;
@@ -360,9 +395,14 @@ body{
     font-size: 0.9rem;
 }
 /* MAIN SECTION THREE -- BOX-DIVS -- LINES 8 (BLACK) HOOVER */
-.main-section-three-box-divs img{
-    width: 4rem;
-    height: 1rem;
+.main-section-three-box-divs div div{
+    width: 6rem;
+    height: 0.3rem;
+    background-color: #000;
+}
+.main-section-three-box-divs div:hover div{
+    background-color: #D74430;
+    transition: 300ms;
 }
 /* FOOTER -- UNIVERSAL FLEX-BOX */
 .footer-section-container,.footer-section, .footer-section-box1, .footer-section-box1 span, .footer-section-division, .footer-section-box2, .footer-section-box3{
@@ -408,6 +448,10 @@ body{
 .footer-section-box1 span img{
     width: 12.5vw;
     height: 8vh;
+}
+.footer-section-box1 img:hover{
+    width: 13vw;
+    height: 8.5vh;
 }
 /* FOOTER SECTION DIVISION */
 .footer-section-division img{
