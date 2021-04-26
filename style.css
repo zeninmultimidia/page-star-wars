@@ -359,26 +359,100 @@ body{
     height: 3rem;
     font-size: 0.9rem;
 }
-/* MAIN SECTION THREE -- BOX-DIVS -- LINES 8 (BLACK) */
+/* MAIN SECTION THREE -- BOX-DIVS -- LINES 8 (BLACK) HOOVER */
 .main-section-three-box-divs img{
+    width: 4rem;
+    height: 1rem;
 }
 /* FOOTER -- UNIVERSAL FLEX-BOX */
-.footer-section, .footer-section-container, .footer-section-box{
+.footer-section-container,.footer-section, .footer-section-box1, .footer-section-box1 span, .footer-section-division, .footer-section-box2, .footer-section-box3{
     display: flex;
 }
 /* FOOTER */
-.footer-section{
-    width: 10vw;
-    height: 10vh;
-    background-color: darkolivegreen;
-}
 .footer-section-container{
-    width: 8vw;
-    height: 8vh;
-    background-color: darkorchid;
+    width: 98.79vw;
+    height: 115vh;
+       align-items: flex-end;
 }
-.footer-section-box{
-    width: 5vw;
-    height: 5vh;
-    background-color: darksalmon;
+/* FOOTER SECTION CONTAINER: GERAL FOOTER CONTENT */
+.footer-section{
+    width: 60vw;
+    height: 95vh;
+    color: #FFF;
+    padding: 4rem 14rem 2rem 10rem;
+    background-color: #FF5A56;
+        flex-direction: column;
+}
+/* FOOTER SECTION BOX 1-- TITLE, PARAGRAPH AND IMAGES FOR SOCIAL PLATAFORMS */
+.footer-section-box1{
+    width: 26vw;
+    height: 40vh;
+        flex-direction: column;
+        justify-content: center;
+}
+.footer-section-box1 h3{
+    padding: 2rem 0;
+    font-size: 2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.footer-section-box1 p{
+    width: 26vw;
+    height: 5rem;
+    font-size: 0.82rem;
+    font-weight: 300;
+}
+.footer-section-box1 span{
+     justify-content: space-between;
+}
+.footer-section-box1 span img{
+    width: 12.5vw;
+    height: 8vh;
+}
+/* FOOTER SECTION DIVISION */
+.footer-section-division img{
+    width: 26vw;
+    height: 6vh;
+    margin: 1rem 0
+}
+/* FOOTER SECTION BOX 2: STAR WARS LOGO AND PARAGRAPH */
+.footer-section-box2{
+    width: 26vw;
+    height: 30vh;
+        flex-direction: column;
+}
+.footer-section-box2 img{
+    width: 12.5vw;
+    height: 12.5vh;
+    margin: 1rem 0;
+}
+.footer-section-box2 p{
+    width: 26vw;
+    height: 2.3rem;
+    font-size: 0.82rem;
+    font-weight: 300;
+}
+/* FOOTER CONTAINER: IMG AND REF PARAGRAGH */
+.footer-section-box3{
+    width: 37vw;
+    height: 102vh;
+    margin-bottom: 3rem;
+        flex-direction: column;
+        align-items: flex-end;
+    position: relative;
+    right: 8rem;
+}
+.footer-section-box3 img{
+    width: 37vw;
+    height: 102vh;
+}
+.footer-section-box3 p{
+    width: 20vw;
+    height: 3rem;
+    font-size: 0.7rem;
+    font-weight: 300;
+    line-height: 0.8rem;
+    position: relative;
+    bottom: 3rem;
+    right: 1.5rem;
 }
