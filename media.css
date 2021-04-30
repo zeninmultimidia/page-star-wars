@@ -1,7 +1,6 @@
 @media (max-width: 375px){
 /* HEADER CONTAINER & BACKGROUND IMAGE */
     .header{
-        width:vw;
 
     }
 /* BOX 1,2 & BOX-MOTHER FOR STAR WARS LOGO IMAGES */
@@ -35,13 +34,11 @@
 .main-container{
     width: 188vw;
     height: 860vh;
-    background-color: aqua;
 }
 /* MAIN SECTION ONE -- CONTAINER */
 .main-section-one{
     width: 188vw;
     height: 400vh;
-    background-color: blueviolet;
     flex-wrap: nowrap;
     flex-direction: row-reverse;
 }
@@ -53,7 +50,6 @@
 .main-section-one-container1{
     width: 100vw;
     height: 200vh;
-    background-color: blue;
         flex-direction: column;
         align-items: flex-end;
     right: 21rem;
@@ -63,7 +59,6 @@
     width: 100vw;
     height: 200vh;
     bottom: -3rem;
-    background-color: chartreuse;
 }
 .main-section-one-box1-text button{
     width: 6rem;
@@ -98,18 +93,6 @@
     width: 58vw; 
     margin-left: 0rem;
 }
-/* MAIN SECTION ONE -- BOX 02 -- DIVISION GERAL */
-.main-section-one-division{
-
-}
-/* MAIN SECTION ONE -- CONTAINER 01 -- BOX 01 DIVISION */
-.main-section-one-container2{
-    background-color: firebrick;
-}
-.main-section-one-box3{
-    background-color: gold;
-}
-
 
 
 
