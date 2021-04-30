@@ -85,7 +85,7 @@ body{
     background-repeat: no-repeat;
     background-size: 100%;
 }
-/* MAIN SECTION ONE -- BOX 01 DIVISION */
+/* MAIN SECTION ONE -- CONTAINER 01 -- BOX 01 DIVISION */
 .main-section-one-container1{
     width: 77vw;
     height: 70vh;
@@ -96,7 +96,6 @@ body{
 /* MAIN SECTION ONE -- BOX 01 -- COMECE A JOGAR */
 .main-section-one-box1{
     width: 20vw;
-    height: 64.3vh;
     padding: 1.5rem;
     background-image: url(img-desktop/strom\ trupe\ red@2x.png);
     background-repeat: no-repeat;
@@ -117,13 +116,13 @@ body{
     color: #FFF;
     text-align: center;
     text-transform: uppercase;
-    font-size: 2rem;
+    font-size: 200%;
     font-weight: 400;
 }
 .main-section-one-box1-text p{
     color: rgba(255, 255, 255, 0.645);
     text-align: start;
-    font-size: 0.88rem;
+    font-size: 86%;
     font-weight: 300;
 }
 .main-section-one-box1-text button{
@@ -145,7 +144,7 @@ body{
 .main-section-one-box1-text-sub{
     color: rgba(255, 255, 255, 0.645);
     text-align: end;
-    font-size: 0.4rem;
+    font-size: 4%;
     position: relative;
     left: 0.6rem;
     bottom: 1rem;
@@ -182,13 +181,13 @@ body{
 .main-section-one-box2-text h3{
     width: 20vw;
     text-transform: uppercase;
-    font-size: 1.4rem;
+    font-size: 140%;
     font-weight: 700;
 }
 .main-section-one-box2-text p{
     width: 24vw;
     height: 19vh;
-    font-size: 0.9rem;
+    font-size: 90%;
     font-weight: 400;
     line-height: 1.2rem;
     position: relative;
@@ -208,23 +207,25 @@ body{
         right: 24.5rem;
         bottom: 1rem;
 }
-/* MAIN SECTION ONE -- BOX 03 -- ESTRUTURA DE JOGO */
+/* MAIN SECTION ONE -- BOX 03 -- UNIVERSAL FLEX-BOX */
 .main-section-one-container2, .main-section-one-box3, .main-section-one-box3-nav, .main-section-one-box3-figure1, .main-section-one-box3-figure2{
     display: flex;
 }
+/* MAIN SECTION ONE -- CONTAINER 01 -- BOX 01 DIVISION */
 .main-section-one-container2{
     width: 77vw;
     height: 80vh;
     position: relative;
     right: 22rem;
 }
+/* MAIN SECTION ONE -- BOX 03 -- ESTRUTURA DE JOGO */
 .main-section-one-box3{
     width: 50vw;
     height: 80vh;
         justify-content: center;
         align-items: center;
     position: relative;
-    right: 16rem;
+    right: 15rem;
 }
 .main-section-one-box3-nav{
     width: 30vw;
@@ -259,6 +260,7 @@ body{
 .main-section-one-box3-nav li:hover{
     width: 30vw;
     height: 4.2vh;
+    padding-right: 1.5rem;
     background-color: #D74430;
     transition: 2s;
 }
@@ -448,13 +450,14 @@ body{
     width: 12.5vw;
 }
 .footer-section-box1 img:hover{
-    width: 13vw;
+    width: 12.7vw;
+    transition: 500ms;
 }
 /* FOOTER SECTION DIVISION */
 .footer-section-division img{
     width: 26vw;
     height: 6vh;
-    margin: 1rem 0
+    margin: 1rem 0;
 }
 /* FOOTER SECTION BOX 2: STAR WARS LOGO AND PARAGRAPH */
 .footer-section-box2{
