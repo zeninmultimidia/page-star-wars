@@ -1,65 +1,69 @@
 @media (max-width: 375px){
 /* HEADER CONTAINER & BACKGROUND IMAGE */
-    .header-container{
-        width: 100vw;
-        height: 30vh;
+    .header{
+        width:vw;
+
     }
 /* BOX 1,2 & BOX-MOTHER FOR STAR WARS LOGO IMAGES */
     .header-box-logo1, .header-box-logo2{
         width: 50vw;
-        height: 21vh;
+        height: 36vh;
     }
     .header-box-logo1{
-        left: 7.9rem;
+        left: 13.2rem;
     }
     .header-box-logo2{
-        right: 6.7rem;
+        right: 13rem;
     }
     /* STAR WARS LOGO IMAGES */
     .header-logo1, .header-logo2{
-        width: 24vw;
+        width: 40vw;
     }
 /* FIGURE KYLO REN (FIRST IMPRESSION) */
     .header-figure{
-        height: 37vh;
-        top: 0.2rem;
-        left: 0.2rem;
+        height: 64vh;
+        top: 0.3rem;
+        left: -1rem;
     }
     .header-group{
-        width: 15vw;
-        top: 2rem;
-        right: 0.8rem;
+        width: 24vw;
+        top: 3rem;
+        right: 2.5rem;
         z-index: 2;
     }
 /* MAIN CONTAINER */
 .main-container{
-    width: 100vw;
+    width: 188vw;
     height: 860vh;
     background-color: aqua;
 }
 /* MAIN SECTION ONE -- CONTAINER */
 .main-section-one{
-    width: 100vw;
-    height: 220vh;
+    width: 188vw;
+    height: 400vh;
     background-color: blueviolet;
-        
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
 }
 .main-section-one-background{
-    width: 75vw;
-    height: 126vh;
+    width: 140vw;
+    height: 180vh;
 }
 /* MAIN SECTION ONE -- CONTAINER 01 -- BOX 01 DIVISION */
 .main-section-one-container1{
-    width: 80vw;
-    height: 132vh;
+    width: 100vw;
+    height: 200vh;
+    background-color: blue;
         flex-direction: column;
         align-items: flex-end;
-    right: 15.5rem;
+    right: 21rem;
 }
 /* MAIN SECTION ONE -- BOX 01 -- COMECE A JOGAR */
 .main-section-one-box1{
-    width: 58vw;
+    width: 100vw;
+    height: 200vh;
     bottom: -3rem;
+    background-color: chartreuse;
 }
 .main-section-one-box1-text button{
     width: 6rem;
@@ -101,7 +105,6 @@
 /* MAIN SECTION ONE -- CONTAINER 01 -- BOX 01 DIVISION */
 .main-section-one-container2{
     background-color: firebrick;
-    display: none;
 }
 .main-section-one-box3{
     background-color: gold;

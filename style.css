@@ -11,15 +11,18 @@ body{
     position: absolute;
 }
 /* HEADER CONTAINER & BACKGROUND IMAGE */
-.header-container{
+header{
     width: 98.79vw;
-    height: 89.1vh;
+    height: 93.9vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    position: relative;
+}
+.header-container{
     background-image: url(img-desktop/star\ uó\ topo@2x.png);
     background-repeat: no-repeat;
     background-size: 100%;
-        display: flex;
-        justify-content: center;
-    position: relative;
 }
 /* UNIVERSAL HEADER FLEX-BOX */
  .header-box-logo1, .header-box-logo2, .header-logo1, .header-logo2, .header-figure, .header-group{
@@ -27,16 +30,15 @@ body{
 }
 /* BOX 1,2 & BOX-MOTHER FOR STAR WARS LOGO IMAGES */
 .header-box-logo1, .header-box-logo2{
-    width: 50vw;
-    height: 62vh;
-        align-items: flex-end;
+        align-items: center;
     position: relative;
+    top: 11.5%;
 }
 .header-box-logo1{
-    left: 28rem;
+    left: 31.7%;
 }
 .header-box-logo2{
-    right: 20rem;
+    right: 25%;
 }
 /* STAR WARS LOGO IMAGES */
 .header-logo1, .header-logo2{
@@ -44,23 +46,22 @@ body{
 }
 /* FIGURE KYLO REN (FIRST IMPRESSION) */
 .header-figure{
+    width: 70vw;
     height: 110vh;
     position: relative;
-    top: 0.4rem;
-    right: 0.4rem;
+    top: 12%;
     z-index: 1;
 }
 .header-group{
-    width: 8vw;
+    width: 10vw;
         align-self: flex-end;
     position: relative;
-    bottom: 3rem;
-    right: 2rem;
+    bottom: 3%;
+    right: 2%;
 }
 /* MAIN -- CONTAINER */
 .main-container{
     width: 98.79vw;
-    height: 460vh;
         display: flex;
 		flex-direction: column;
     position: relative;
@@ -72,26 +73,24 @@ body{
 /* MAIN SECTION ONE -- CONTAINER */
 .main-section-one{
     width: 98.79vw;
-    height: 154vh;
+    height: 153vh;
+}
+.main-section-one figure{
+    width: 39vw;
         flex-wrap: wrap;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
 }
 .main-section-one-background{
-    width: 42vw;
-    height: 160vh;
     background-image: url(img-desktop/sta\ uo\ robot@2x.png);
     background-repeat: no-repeat;
     background-size: 100%;
 }
 /* MAIN SECTION ONE -- CONTAINER 01 -- BOX 01 DIVISION */
 .main-section-one-container1{
-    width: 77vw;
+    width: 98vw;
     height: 70vh;
         justify-content: space-between;
     position: relative;
-    right: 24.5rem;
+    left: 40%;
 }
 /* MAIN SECTION ONE -- BOX 01 -- COMECE A JOGAR */
 .main-section-one-box1{
@@ -102,7 +101,7 @@ body{
     background-size: 100%;
         flex-direction: column;
     position: relative;
-    bottom: 2.5rem;
+    bottom: 10%;
     z-index: 2;
 }
 .main-section-one-box1-text{
@@ -132,12 +131,12 @@ body{
     background-color: rgba(255, 255, 255, 0);
     text-transform: uppercase;
     border-radius: 5%;
-    border: 0.1rem solid white;
+    border: 0.1rem solid #FFF;
 }
 .main-section-one-box1-text button:hover{
     width: 8.5rem;
     height: 2.1rem;
-    color: black;
+    color: #000;
     background-color: #fff;
     transition: 1s;
 }
@@ -146,8 +145,8 @@ body{
     text-align: end;
     font-size: 4%;
     position: relative;
-    left: 0.6rem;
-    bottom: 1rem;
+    left: 1%;
+    bottom: 1%;
 }
 /* MAIN SECTION 01 -- BOX 02 -- UNIVERSAL FLEX-BOX */
 .main-section-one-box2, .main-section-one-box2-line, .main-section-one-box2-text, .main-section-one-box2-img, .main-section1-division{
@@ -158,6 +157,7 @@ body{
     width: 50vw;
     height: 26vh;
     margin-top: 7.7rem;
+    justify-content: center;
         align-self: center;
 	position: relative;
 }
@@ -167,7 +167,7 @@ body{
     margin-bottom: 0.5rem;
     background-color: #000;
     position: relative;
-    top: 0.5rem;
+    top: 2%;
 }
 .main-section-one-box2-text{
     width: 27rem;
@@ -191,21 +191,20 @@ body{
     font-weight: 400;
     line-height: 1.2rem;
     position: relative;
-    top: 0.5rem;
+    top: 5%;
 }
 .main-section-one-box2-img{
     width: 22vw;
     margin-left: 1rem;
-    position: relative;
 }
 /* MAIN SECTION ONE -- BOX 02 -- DIVISION GERAL */
 .main-section-one-division{
-    width: 77vw;
+    width: 100vw;
     height: 0.6vh;
     background-color: #707070;
         position: relative;
-        right: 24.5rem;
-        bottom: 1rem;
+        left: 10%;
+        bottom: 2%;
 }
 /* MAIN SECTION ONE -- BOX 03 -- UNIVERSAL FLEX-BOX */
 .main-section-one-container2, .main-section-one-box3, .main-section-one-box3-nav, .main-section-one-box3-figure1, .main-section-one-box3-figure2{
@@ -216,7 +215,7 @@ body{
     width: 77vw;
     height: 80vh;
     position: relative;
-    right: 23rem;
+    left: 40%;
 }
 /* MAIN SECTION ONE -- BOX 03 -- ESTRUTURA DE JOGO */
 .main-section-one-box3{
@@ -225,23 +224,22 @@ body{
         justify-content: center;
         align-items: center;
     position: relative;
-    right: 17rem;
+    right: 24%;
 }
 .main-section-one-box3-nav{
     width: 30vw;
     height: 65vh;
     text-transform: uppercase;
+    text-align: right;
         flex-direction: column;
-        justify-content: flex-start;
         align-items: flex-end;
     position: relative;
     z-index: 2;
 }
 .main-section-one-box3-nav h3{
     width: 25vw;
-    height: 20vh;
-    text-align: right;
-    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-size: 300%;
     font-weight: 600;
     line-height: 3rem;
 }
@@ -253,7 +251,6 @@ body{
     height: 4vh;
     margin-top: 1rem;
     list-style: none;
-    text-align: end;
     font-size: 1.2rem;
     font-weight: 500;
 }
@@ -278,7 +275,7 @@ body{
 .main-section-one-box3-figure2{
     height: 80vh;
     position: relative;
-    top: 4rem;
+    top: 10%;
 }
 /* MAIN SECTION TWO -- UNIVERSAL FLEX-BOX */
 .main-section-two, .main-section-two-box1-grid, .main-section-two-box1-grid-img1, .main-section-two-box1-grid-span1, .main-section-two-box1-grid-span2, .main-section-two-box2, .main-section-two-box2-img, .main-section-two-box2-text{
