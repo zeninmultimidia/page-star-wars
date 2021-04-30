@@ -15,7 +15,7 @@ header{
     width: 98.79vw;
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
     position: relative;
 }
 .header-container{
@@ -30,7 +30,6 @@ header{
 /* BOX 1,2 & BOX-MOTHER FOR STAR WARS LOGO IMAGES */
 .header-box-logo1, .header-box-logo2{
     width: 24vw;
-    height: 14vh;
     position: relative;
 }
 .header-box-logo1{
@@ -43,7 +42,7 @@ header{
 .header-logo1, .header-logo2{
     width: 24vw;
     position: relative;
-    top: 98%;
+    top: 23.5vw;
 }
 /* FIGURE KYLO REN (FIRST IMPRESSION) */
 .header-container figure{
@@ -64,11 +63,10 @@ header{
 .header-group{
     width: 10vw;
     position: relative;
-    top: 18vw;
+    top: 33vw;
 }
 /* MAIN -- CONTAINER */
 .main-container{
-    width: 98.79vw;
         display: flex;
 		flex-direction: column;
     position: relative;
@@ -80,40 +78,42 @@ header{
 /* MAIN SECTION ONE -- CONTAINER */
 .main-section-one{
     width: 98.79vw;
-    height: 153vh;
 }
 .main-section-one figure{
-    width: 39vw;
+    width: 98.79vw;
         flex-wrap: wrap;
+        justify-content: center;
 }
 .main-section-one-background{
-    width: 40vw;
     background-image: url(img-desktop/sta\ uo\ robot@2x.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 40%;
 }
 /* MAIN SECTION ONE -- CONTAINER 01 -- BOX 01 DIVISION */
 .main-section-one-container1{
-    width: 98vw;
-    height: 70vh;
-        justify-content: space-between;
+    width: 90vw;
+    height: 68vh;
+        flex-wrap: wrap;
+        justify-content: space-around;
     position: relative;
-    left: 40%;
 }
 /* MAIN SECTION ONE -- BOX 01 -- COMECE A JOGAR */
 .main-section-one-box1{
     width: 20vw;
-    padding: 1.5rem;
+    padding: 1.5%;
     background-image: url(img-desktop/strom\ trupe\ red@2x.png);
     background-repeat: no-repeat;
     background-size: 100%;
         flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
     position: relative;
+    left: 6vw;
     bottom: 10%;
     z-index: 2;
 }
 .main-section-one-box1-text{
-    height: 55vh;
+    height: 50vh;
         justify-content: space-around;
         align-items: center;
         flex-direction: column;
@@ -123,18 +123,17 @@ header{
     color: #FFF;
     text-align: center;
     text-transform: uppercase;
-    font-size: 200%;
+    font-size: 2.2vw;
     font-weight: 400;
 }
-.main-section-one-box1-text p{
+.main-section-one-box1-text{
     color: rgba(255, 255, 255, 0.645);
-    text-align: start;
-    font-size: 86%;
+    font-size: 1vw;
     font-weight: 300;
 }
 .main-section-one-box1-text button{
-    width: 8rem;
-    height: 2rem;
+    width: 10vw;
+    height: 4vh;
     color: #FFF;
     background-color: rgba(255, 255, 255, 0);
     text-transform: uppercase;
@@ -142,8 +141,8 @@ header{
     border: 0.1rem solid #FFF;
 }
 .main-section-one-box1-text button:hover{
-    width: 8.5rem;
-    height: 2.1rem;
+    width: 10.5vw;
+    height: 4.5vh;
     color: #000;
     background-color: #fff;
     transition: 1s;
@@ -151,10 +150,18 @@ header{
 .main-section-one-box1-text-sub{
     color: rgba(255, 255, 255, 0.645);
     text-align: end;
-    font-size: 4%;
+    font-size: 0.5vw;
     position: relative;
-    left: 1%;
     bottom: 1%;
+}
+/* MAIN SECTION ONE -- BOX 02 -- DIVISION GERAL */
+.main-section-one-division{
+    width: 75vw;
+    height: 0.6vh;
+    background-color: #707070;
+    position: relative;
+    left: 3%;
+    top: 3%;
 }
 /* MAIN SECTION 01 -- BOX 02 -- UNIVERSAL FLEX-BOX */
 .main-section-one-box2, .main-section-one-box2-line, .main-section-one-box2-text, .main-section-one-box2-img, .main-section1-division{
@@ -163,7 +170,6 @@ header{
 /* MAIN SECTION ONE -- BOX 02 -- SOBRE O JOGO */
 .main-section-one-box2{
     width: 50vw;
-    height: 26vh;
     margin-top: 7.7rem;
     justify-content: center;
         align-self: center;
@@ -172,14 +178,13 @@ header{
 .main-section-one-box2-line{
     width: 9.5vw;
     height: 0.4vh;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
     background-color: #000;
     position: relative;
     top: 2%;
 }
 .main-section-one-box2-text{
-    width: 27rem;
-    height: 10rem;
+    width: 27vw;
     text-align: end;
         justify-content: flex-end;
         align-items: flex-end;
@@ -189,30 +194,19 @@ header{
 .main-section-one-box2-text h3{
     width: 20vw;
     text-transform: uppercase;
-    font-size: 140%;
+    font-size: 2vw;
     font-weight: 700;
 }
 .main-section-one-box2-text p{
     width: 24vw;
-    height: 19vh;
-    font-size: 90%;
+    font-size: 1vw;
     font-weight: 400;
     line-height: 1.2rem;
     position: relative;
-    top: 5%;
 }
 .main-section-one-box2-img{
     width: 22vw;
     margin-left: 1rem;
-}
-/* MAIN SECTION ONE -- BOX 02 -- DIVISION GERAL */
-.main-section-one-division{
-    width: 100vw;
-    height: 0.6vh;
-    background-color: #707070;
-        position: relative;
-        left: 10%;
-        bottom: 2%;
 }
 /* MAIN SECTION ONE -- BOX 03 -- UNIVERSAL FLEX-BOX */
 .main-section-one-container2, .main-section-one-box3, .main-section-one-box3-nav, .main-section-one-box3-figure1, .main-section-one-box3-figure2{
@@ -220,27 +214,22 @@ header{
 }
 /* MAIN SECTION ONE -- CONTAINER 01 -- BOX 01 DIVISION */
 .main-section-one-container2{
-    width: 77vw;
-    height: 80vh;
+    width: 98.79vw;
+        justify-content: center;
     position: relative;
-    left: 40%;
 }
 /* MAIN SECTION ONE -- BOX 03 -- ESTRUTURA DE JOGO */
 .main-section-one-box3{
-    width: 50vw;
-    height: 80vh;
-        justify-content: center;
+    width: 80vw;
         align-items: center;
     position: relative;
-    right: 15%;
+    left: 8%;
 }
 .main-section-one-box3-nav{
     width: 20vw;
-    height: 65vh;
     text-transform: uppercase;
     text-align: right;
         flex-direction: column;
-        align-items: center;
     position: relative;
     right: 20%;
     z-index: 2;
@@ -278,7 +267,7 @@ header{
     transition: 1s;
 }
 .main-section-one-box3-figure1{
-    width: 38vw;
+    width: 40vw;
     position: relative;
     top: 8%;
 }
@@ -286,7 +275,7 @@ header{
     width: 20vw;
     position: relative;
     top: 10%;
-    right: 15%;
+    right: 12%;
 }
 /* MAIN SECTION TWO -- UNIVERSAL FLEX-BOX */
 .main-section-two, .main-section-two-box1-grid, .main-section-two-box1-grid-img1, .main-section-two-box1-grid-span1, .main-section-two-box1-grid-span2, .main-section-two-box2, .main-section-two-box2-img, .main-section-two-box2-text{
@@ -354,17 +343,17 @@ header{
 /* MAIN SECTION THREE */
 .main-section-three{
     width: 98.79vw;
-    height: 45vh;
+    height: 55vh;
         justify-content: flex-end;
+        align-items: center;
 }
 .main-section-three-figure, .main-section-three-figure img{
-    height: 90vh;
+    width: 28vw;
         align-self: flex-end;
 }
 /* MAIN SECTION THREE -- BOX-DIVS */
 .main-section-three-box-divs{
     width: 65vw;
-    height: 45vh;
     text-align: center;
        align-items: flex-end;
 }
@@ -419,13 +408,11 @@ header{
 /* FOOTER */
 .footer-section-container{
     width: 98.79vw;
-    height: 115vh;
         align-items: flex-end;
 }
 /* FOOTER SECTION CONTAINER: GERAL FOOTER CONTENT */
 .footer-section{
     width: 60vw;
-    height: 95vh;
     color: #FFF;
     padding: 4rem 14rem 2rem 10rem;
     background-color: #FF5A56;
@@ -434,20 +421,19 @@ header{
 /* FOOTER SECTION BOX 1-- TITLE, PARAGRAPH AND IMAGES FOR SOCIAL PLATAFORMS */
 .footer-section-box1{
     width: 26vw;
-    height: 40vh;
         flex-direction: column;
         justify-content: center;
 }
 .footer-section-box1 h3{
     padding: 2rem 0;
-    font-size: 2rem;
+    font-size: 200%;
     font-weight: 800;
     text-transform: uppercase;
 }
 .footer-section-box1 p{
     width: 26vw;
-    height: 5rem;
-    font-size: 0.82rem;
+    margin-bottom: 2rem;
+    font-size: 82%;
     font-weight: 300;
 }
 .footer-section-box1 span{
@@ -463,13 +449,11 @@ header{
 /* FOOTER SECTION DIVISION */
 .footer-section-division img{
     width: 26vw;
-    height: 6vh;
-    margin: 1rem 0;
+    margin: 2rem 0;
 }
 /* FOOTER SECTION BOX 2: STAR WARS LOGO AND PARAGRAPH */
 .footer-section-box2{
     width: 26vw;
-    height: 30vh;
         flex-direction: column;
 }
 .footer-section-box2 img{
@@ -478,30 +462,26 @@ header{
 }
 .footer-section-box2 p{
     width: 26vw;
-    height: 2.3rem;
-    font-size: 0.82rem;
+    font-size: 82%;
     font-weight: 300;
 }
 /* FOOTER CONTAINER: IMG AND REF PARAGRAGH */
 .footer-section-box3{
     width: 37vw;
-    height: 101vh;
-    margin-bottom: 3rem;
         flex-direction: column;
         align-items: flex-end;
     position: relative;
-    right: 7.5rem;
+    right: 9%;
 }
 .footer-section-box3 img{
-    height: 101vh;
+    width: 37vw;
 }
 .footer-section-box3 p{
     width: 20vw;
-    height: 3rem;
     font-size: 0.7rem;
     font-weight: 300;
     line-height: 0.8rem;
     position: relative;
-    bottom: 3rem;
-    right: 3rem;
+    right: 8%;
+    bottom: 3vw;
 }
