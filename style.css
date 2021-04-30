@@ -13,7 +13,6 @@ body{
 /* HEADER CONTAINER & BACKGROUND IMAGE */
 header{
     width: 98.79vw;
-    height: 93.9vh;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -25,39 +24,47 @@ header{
     background-size: 100%;
 }
 /* UNIVERSAL HEADER FLEX-BOX */
- .header-box-logo1, .header-box-logo2, .header-logo1, .header-logo2, .header-figure, .header-group{
+ .header-box-logo1, .header-box-logo2, .header-logo1, .header-logo2, .header-figure, .header-group-box, .header-group{
         display: flex;
 }
 /* BOX 1,2 & BOX-MOTHER FOR STAR WARS LOGO IMAGES */
 .header-box-logo1, .header-box-logo2{
-        align-items: center;
+    width: 24vw;
+    height: 14vh;
     position: relative;
-    top: 11.5%;
 }
 .header-box-logo1{
-    left: 31.7%;
+    left: 33.3%;
 }
 .header-box-logo2{
-    right: 25%;
+    right: 24%;
 }
 /* STAR WARS LOGO IMAGES */
 .header-logo1, .header-logo2{
     width: 24vw;
+    position: relative;
+    top: 98%;
 }
 /* FIGURE KYLO REN (FIRST IMPRESSION) */
+.header-container figure{
+    width: 70vw;
+    height: 90vh;
+    position: relative;
+}
 .header-figure{
     width: 70vw;
-    height: 110vh;
     position: relative;
-    top: 12%;
+    left: 0.4%;
     z-index: 1;
+}
+.header-group-box{
+    width: 10vw;
+    position: relative;
 }
 .header-group{
     width: 10vw;
-        align-self: flex-end;
     position: relative;
-    bottom: 3%;
-    right: 2%;
+    top: 18vw;
 }
 /* MAIN -- CONTAINER */
 .main-container{
@@ -80,6 +87,7 @@ header{
         flex-wrap: wrap;
 }
 .main-section-one-background{
+    width: 40vw;
     background-image: url(img-desktop/sta\ uo\ robot@2x.png);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -224,16 +232,17 @@ header{
         justify-content: center;
         align-items: center;
     position: relative;
-    right: 24%;
+    right: 15%;
 }
 .main-section-one-box3-nav{
-    width: 30vw;
+    width: 20vw;
     height: 65vh;
     text-transform: uppercase;
     text-align: right;
         flex-direction: column;
-        align-items: flex-end;
+        align-items: center;
     position: relative;
+    right: 20%;
     z-index: 2;
 }
 .main-section-one-box3-nav h3{
@@ -255,9 +264,8 @@ header{
     font-weight: 500;
 }
 .main-section-one-box3-nav li:hover{
-    width: 30vw;
+    width: 28vw;
     height: 4.2vh;
-    padding-right: 1.5rem;
     background-color: #D74430;
     transition: 2s;
 }
@@ -270,12 +278,15 @@ header{
     transition: 1s;
 }
 .main-section-one-box3-figure1{
-    height: 90vh;
+    width: 38vw;
+    position: relative;
+    top: 8%;
 }
 .main-section-one-box3-figure2{
-    height: 80vh;
+    width: 20vw;
     position: relative;
     top: 10%;
+    right: 15%;
 }
 /* MAIN SECTION TWO -- UNIVERSAL FLEX-BOX */
 .main-section-two, .main-section-two-box1-grid, .main-section-two-box1-grid-img1, .main-section-two-box1-grid-span1, .main-section-two-box1-grid-span2, .main-section-two-box2, .main-section-two-box2-img, .main-section-two-box2-text{
@@ -300,15 +311,14 @@ header{
 }
 /* MAIN SECTION TWO GRID WITH 5 IMAGES */
 .main-section-two-box1-grid{
-	width: 83vw;
-	height: 58vh;
+	width: 80vw;
     margin-bottom: 4rem;
 }
 .main-section-two-box1-grid-img1{
 	width: 40vw;
 }
 .main-section-two-box1-grid-span1 img, .main-section-two-box1-grid-span2 img{
-	height: 29vh;
+	width: 20vw;
     background-image: url(img-desktop/Grupo\ novos\ graficos.svg);
     background-size: 0%;
 }
@@ -323,7 +333,7 @@ header{
         flex-direction: column;
 }
 .main-section-two-box2-img{
-	height: 110vh;
+	width: 80vw;
 }
 .main-section-two-box2 p{
     width: 40vw;
