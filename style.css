@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;;
+    font-family: 'Open Sans', sans-serif;
 }
 body{
     background-color: #FFF;
@@ -13,7 +13,7 @@ body{
 /* HEADER CONTAINER & BACKGROUND IMAGE */
 .header-container{
     width: 98.79vw;
-    height: 93.6vh;
+    height: 89.1vh;
     background-image: url(img-desktop/star\ uó\ topo@2x.png);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -28,7 +28,7 @@ body{
 /* BOX 1,2 & BOX-MOTHER FOR STAR WARS LOGO IMAGES */
 .header-box-logo1, .header-box-logo2{
     width: 50vw;
-    height: 64vh;
+    height: 62vh;
         align-items: flex-end;
     position: relative;
 }
@@ -44,17 +44,17 @@ body{
 }
 /* FIGURE KYLO REN (FIRST IMPRESSION) */
 .header-figure{
-    height: 115vh;
+    height: 110vh;
     position: relative;
+    top: 0.4rem;
     right: 0.4rem;
-    bottom: 0.4rem;
     z-index: 1;
 }
 .header-group{
     width: 8vw;
         align-self: flex-end;
     position: relative;
-    bottom: 1rem;
+    bottom: 3rem;
     right: 2rem;
 }
 /* MAIN -- CONTAINER */
@@ -79,8 +79,8 @@ body{
         align-items: center;
 }
 .main-section-one-background{
-    width: 40vw;
-    height: 154vh;
+    width: 42vw;
+    height: 160vh;
     background-image: url(img-desktop/sta\ uo\ robot@2x.png);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -216,7 +216,7 @@ body{
     width: 77vw;
     height: 80vh;
     position: relative;
-    right: 22rem;
+    right: 23rem;
 }
 /* MAIN SECTION ONE -- BOX 03 -- ESTRUTURA DE JOGO */
 .main-section-one-box3{
@@ -225,7 +225,7 @@ body{
         justify-content: center;
         align-items: center;
     position: relative;
-    right: 15rem;
+    right: 17rem;
 }
 .main-section-one-box3-nav{
     width: 30vw;
@@ -483,7 +483,7 @@ body{
         flex-direction: column;
         align-items: flex-end;
     position: relative;
-    right: 9rem;
+    right: 7.5rem;
 }
 .footer-section-box3 img{
     height: 101vh;
@@ -496,5 +496,5 @@ body{
     line-height: 0.8rem;
     position: relative;
     bottom: 3rem;
-    right: 1.5rem;
+    right: 3rem;
 }
